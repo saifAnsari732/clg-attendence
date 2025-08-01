@@ -145,7 +145,8 @@
           #302b3b 50%,
           #34011b 100%
         );
-        background-size: 200% 200%;
+        background-size: 250% 250%;
+       
         animation: gradientBG 15s ease infinite;
       }
 
@@ -202,6 +203,7 @@
       @media (max-width: 570px) {
         .hero-section {
           flex-direction: column-reverse;
+          width: 100%;
         }
         .hero-image {
           margin-bottom: 2rem;
@@ -224,7 +226,7 @@
     <!-- Header -->
   <header class="fixed w-full backdrop-blur-md z-40 shadow-sm">
       <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" class="text-2xl font-bold text-white">Saif...</a>
+        <a href="#" class="text-2xl font-bold text-white">Decode</a>
         <nav class="hidden md:flex space-x-8" id="desktop-nav">
           <a href="#about" class="text-white hover:text-white transition">About</a>
           <a href="#skills" class="text-white hover:text-white transition">Skills</a>
@@ -258,7 +260,8 @@
     </header>
     <!-- Hero Section -->
     <section
-      class="hero-section flex items-center px-6 relative overflow-hidden hero-gradient"
+
+      class="hero-section flex items-center px-6  relative overflow-hidden hero-gradient "
     >
       <div class="absolute inset-0 z-0 opacity-20 dark:opacity-10">
         <div id="particles-js" class="absolute inset-0"></div>
@@ -269,13 +272,13 @@
       >
         <!-- Left side - Text content -->
         <div
-          class="md:w-1/2 text-center md:text-left mb-12 md:mb-0 slide-in-left"
+          class="md:w-full text-center md:text-left mb-12 md:mb-0 slide-in-left"
         >
-          <h1
+          <a href="#mobile-nav"
             class="text-5xl md:text-5xl lg:text-6xl font-bold mb-4 text-white"
           >
             Saif <span class="text-orange-500">Ansari</span>
-          </h1>
+          </a>
           <h2
             id="typewriter"
             class="text-3xl font-bold md:text-3xl text-teal-500/80 mb-6 h-10"
@@ -370,7 +373,7 @@
               class="relative z-10 rounded-xl overflow-hidden shadow-xl transform group-hover:-rotate-2 transition duration-400"
             >
               <img
-                src="/s.jpg"
+                src="/saif-passfort-size.jpg"
                 alt="Profile"
                 class="w-full md:h-[600px] rounded-lg h-[500px]"
               />
